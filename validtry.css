@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWTJZuOwX_8PBus4cEnzuQml56kqum33zHJQ&s");
+   background-attachment : fixed;
+    background-repeat : no-repeat;
+    background-size:cover;
+    font-family: Arial, Helvetica, sans-serif
+}
+#form{
+    margin:100px;
+   
+    background-repeat: no-repeat;
+    width: 400px;
+    height:500px;
+    border-radius: 5px;
+    padding:30px;
+    display:table;
+    background-attachment : fixed;
+    background-repeat : no-repeat;
+    background-size: cover;
+}
+h1{
+    margin-top: 0%;
+    text-align:center;
+    color: rgb(241, 236, 245);
+    font-weight: 500px;
+}
+.submit{
+    width:100%;
+    padding: 2px;
+    color: white;
+    background-color: rgb(0, 4, 255);
+    border-radius: 30px;
+    border-width: 5px;
+    cursor: pointer;
+    height: 50px;
+    text-decoration: none;
+
+}
+.input-group{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-size:25px;
+
+}
+.input-group input{
+    margin-top: 5px;
+    border-radius: 15px;
+    border-color: rgb(14, 204, 230);
+    border-width: 5px;
+    height:40px;
+    padding-left: 20px;
+}
+.error{
+    color:red;
+    font-size:13px;
+    padding: 5px;
+}
+ success {
+    border-color:green;
+}
+error {
+    border-color: red;
+}
+.input-group:hover{
+    color: rgb(189, 189, 184);
+}
